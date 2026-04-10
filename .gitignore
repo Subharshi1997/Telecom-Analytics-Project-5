@@ -15,16 +15,16 @@ env/
 .env.example
 
 # Data & Large Artifacts (Don't upload large datasets)
-feature_store/
+#feature_store/
 models_artifacts/
 data/*.xlsx
-data/*.csv
+#data/*.csv
 data/*.parquet
 
 # MLflow (Database and tracking runs)
 mlflow.db
 mlflow_test.db
-mlruns/
+#mlruns/
 
 # Reports & Outputs
 reports/*.png

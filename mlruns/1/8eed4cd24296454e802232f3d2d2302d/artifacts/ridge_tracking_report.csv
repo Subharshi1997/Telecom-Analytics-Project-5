@@ -1,0 +1,2 @@
+model_name,run_id,start_time,end_time,source,rmse,mae,r2,cv_rmse,train_duration_sec,params
+ridge,8eed4cd24296454e802232f3d2d2302d,2026-03-30T21:18:29.364347,2026-03-30T21:18:29.405692,ModelTrainer.train_single,2e-06,2e-06,1.0,1e-06,0.041,"{'alpha': 1.0, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': None, 'solver': 'auto', 'tol': 0.0001}"

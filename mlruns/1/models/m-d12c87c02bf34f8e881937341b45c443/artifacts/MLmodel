@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/ARKO/telecom_analytics/mlruns/1/models/m-d12c87c02bf34f8e881937341b45c443/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-d12c87c02bf34f8e881937341b45c443
+model_size_bytes: 128199
+model_uuid: m-d12c87c02bf34f8e881937341b45c443
+prompts: null
+run_id: bc2da5ce3eae42258d612bd82f99a793
+utc_time_created: '2026-03-30 20:43:39.425396'
